@@ -9,7 +9,8 @@ public class Main {
         ProductoLimpieza producto4 = new ProductoLimpieza(444, "Lavandina", 2000, 30, "MarcaRandom4", "Piso", 16, "FraganciaRandom", 1.5, "Diluir en agua y pasar con una mopa por el piso");
 
         producto3.setNombre("Manzana");
-
+        producto3.setEsOrganico(true);
+        producto3.setStock(35);
         producto1.mostrarInfo();
         System.out.println();
         System.out.println("-----------------------");
@@ -26,7 +27,8 @@ public class Main {
 
         double garantiaExtendida = producto2.calcularGarantiaExtendida(producto2.getPrecio());
         System.out.println("Con la garantía extendida, el producto "+producto2.getNombre()+" tiene un precio de $"+garantiaExtendida);
-
+        System.out.println();
+        System.out.println("----------------------------");
         System.out.println("La dilución del producto "+producto4.getNombre()+" es de "+producto4.calcularDilusion(producto4.getLitros(), producto4.getConcentracion()));
     }
 }
