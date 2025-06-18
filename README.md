@@ -1,0 +1,1 @@
+Disculpe profe, hay algunos temas que no sé como la los voltajes o consumo de energia, las garantían o dilusiones así que probablemente haya hecho cálculos erroneos o tipos de variables que no correspondían.
